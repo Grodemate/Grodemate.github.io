@@ -1,12 +1,18 @@
-# Changelog: Version 2.0.0
-* `./{` setup prompt
-* `txt-[x, y, text]` text-filling cell coloring
-* `bit-[topleftx, toplefty, bottomrightx, bottomrighty, img.png/jpg]` blitting ranged
-* `img-[x, y, img.png/jpg]`image cell filling
-* Grodemate View Debug Connsole
-* Variables and `if` statematents
-* Asking for input in cells, popup, top, or bottom
-* Text to Speech
-* Event Listeners/Handlers
+# 🧾 Grodemate Changelog: Version 2.0.0
+
+### ✨ New Features
+- `./{` — New setup prompt syntax
+- `txt-[x, y, text]` — Cell coloring with text filling
+- `img-[x, y, img.png/jpg]` — Fill a cell with an image
+- `bit-[x1, y1, x2, y2, img.png/jpg]` — Blit (draw) an image in a rectangular range
+- 🧠 **Grodemate View Debug Console** — Helps find bugs fast
+- 🧮 Variables and `if` statements — Now supported in `.groda` files
+- ⌨️ Input: ask for input inside cells, using popups (in the center of screen), or above or below the grid.
+- 🔊 Text-to-Speech (TTS) support with `tts-[text]`— Code can now *talk*!
+- 🎯 Event listeners and handlers — Respond to clicks, cell hovers, and more
+
+### 🐛 Bug Fixes
+- Fixed: `.groda` files couldn’t be edited directly — now they can!
+
 > [!NOTE]
-> A bug has been fixed which doesn't let people edit their `.groda` files directly.
+> Grodemate 2.0.0 is a **major leap** from 1.x. This update focuses on interactivity, visuals, and real-time logic.
