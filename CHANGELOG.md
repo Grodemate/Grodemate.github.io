@@ -10,8 +10,7 @@
 - ⌨️ Input: ask for input inside cells, using popups (in the center of screen), or above or below the grid.
 - 🔊 Text-to-Speech (TTS) support with `tts-[text]`— Code can now *talk*!
 
-### 🐛 Bug Fixes
-- Fixed: `.groda` files couldn’t be edited directly — now they can!
+
 
 > [!NOTE]
 > Grodemate 2.0.0 is a **major leap** from 1.x. This update focuses on interactivity, visuals, and real-time logic.
